@@ -84,7 +84,12 @@ int main(int argc, char **argv) {
         if (success) {
             assert(get_homed(axis));
             assert(touches[axis] == (!strcmp(mode, "initially-active") ? 3 : 2));
-            assert(fabs(search_peak[axis] - (axis == 2 ? 5 : 15)) < .001);
+            double search_limit = axis == 2 ? 5 : 15;
+            assert(search_peak[axis] > 0 && search_peak[axis] <= search_limit + .001);
+            /* A switch already pressed at start clears only a short distance;
+               the next approach must not require reaching full cruise speed. */
+            if (!strcmp(mode, "normal"))
+                assert(fabs(search_peak[axis] - search_limit) < .001);
             assert(fabs(retreat_peak[axis] - 2) < .001);
             assert(fabs(latch_peak[axis] - 1) < .001);
             assert(overtravel[axis] < .5);
