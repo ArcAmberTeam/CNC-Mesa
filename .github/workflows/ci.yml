@@ -30,3 +30,25 @@ jobs:
           RESULT: ${{ needs.check.result }}
           HOMING_RESULT: ${{ needs.homing.result }}
         run: test "$RESULT" = success && test "$HOMING_RESULT" = success
+  release:
+    name: Publish matched source release
+    needs: [gate]
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare source archives and unavailable-firmware manifest
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: python3 tools/prepare_release.py --version "${RELEASE_TAG#v}" --output release
+      - name: Publish only after all checks pass
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          gh release create "$RELEASE_TAG" --verify-tag
+          --title "CNC-Mesa $RELEASE_TAG"
+          --notes-file release/release-notes.md
+          release/*.tar.gz release/manifest.json release/SHA256SUMS

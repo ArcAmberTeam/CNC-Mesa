@@ -35,4 +35,5 @@ class ProjectTests(unittest.TestCase):
             line = re.search(rf'^\s*{gpio} => (IOPortTag.*)$', source, re.M).group(1)
             self.assertIn(roles[function], line)
         profile = json.loads((ROOT / "mesa/board/zhulong-v2.json").read_text())
+        self.assertIs(profile["homing"]["active_low"], False)
         self.assertEqual(profile["homing"]["axes"], {"X": {"gpio": 20, "direction": -1}, "Y": {"gpio": 21, "direction": 1}, "Z": {"gpio": 22, "direction": -1}})

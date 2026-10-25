@@ -14,7 +14,7 @@
   "original_bitstream": "mesa/firmware/original/TopEthernetHostMot2.bit",
   "homing": {
     "distance_mm": 5,
-    "active_low": true,
+    "active_low": false,
     "axes": {
       "X": {
         "gpio": 20,
