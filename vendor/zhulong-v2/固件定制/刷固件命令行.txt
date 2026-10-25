@@ -1,0 +1,25 @@
+
+
+
+.
+这里4个刷入固件命令 依次执行1，2，3，4，5，6代码
+	要刷入其他固件把命令里面的固件名称替换成你要刷的固件名 
+	以下代码刷入的是名为7i92_fallback.bit 的固件 
+	注意 刷固件命令有4行必须全部执行
+	注意 刷固件命令有4行必须全部执行
+	注意 刷固件命令有4行必须全部执行
+  1	sudo mesaflash --device 7i92 --addr 10.10.10.10 --write 7i92_fallback.bit --fix --fallback	刷入固件
+  2	sudo mesaflash --device 7i92 --addr 10.10.10.10 --write 7i92_fallback.bit --fallback		刷入固件
+  3	sudo mesaflash --device 7i92 --addr 10.10.10.10 --reload --fallback  重启mesa卡
+ 
+
+  4	sudo mesaflash --device 7i92 --addr 10.10.10.10 --write 7i92_fallback.bit --fix 		刷入固件
+  5	sudo mesaflash --device 7i92 --addr 10.10.10.10 --write 7i92_fallback.bit 			刷入固件
+
+
+
+ 6	sudo mesaflash --device 7i92 --addr 10.10.10.10 --reload   重启mesa卡
+
+sudo mesaflash --device 7i92 --addr 10.10.10.10 --verbose	查询mesa卡信息
+
+sudo mesaflash --device 7i92 --addr 10.10.10.10 --readhmid	查询mesa卡GPIO信息

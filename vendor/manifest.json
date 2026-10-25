@@ -1,0 +1,24 @@
+{
+  "source": "用户提供的《烛龙V2 资料.zip》",
+  "files": {
+    "固件定制/TopEthernetHostMot2.bit": "517254a03dc454a4af107ca29607311717d58f8c9d4dbebe538ed083f9961065",
+    "固件定制/刷固件命令行.txt": "91c9cc861e4027ff5a091507c917cbdd1d33ca843d93f340a64b6dc30ecc5586",
+    "引脚定义.txt": "df544d4f11f2f0ad3e50965baa12c6d92e1d3a18ef637d4a194cf4b26c250d5f",
+    "智能串口扩展版（16出8进1手轮）/MPG.hal": "a7091a77e6fc92b7af14d64364582c842099e99b0914b6569982d085479006ba",
+    "智能串口扩展版（16出8进1手轮）/使用说明.doc": "e7325f5e85d8793f7d5d0597a56bac3da761574225235367404ce30ce456b26f",
+    "板卡接口说明.jpg": "8f6d46b4f7ef262512009d2c8bf233231a770dbb362fc4e6394b6efe4b261d11",
+    "烛龙 V2 6轴参考配置/custom.hal": "34581418aef7f3453986cdbcd760df6083a94fe03edec4f2bc7d85b951dd5eb8",
+    "烛龙 V2 6轴参考配置/custom_gvcp.hal": "6f7e9aac044b1f113c789b58d0680daa971e5dbc3bf6f3fe014026ee235902b1",
+    "烛龙 V2 6轴参考配置/custom_postgui.hal": "ee3543526da49290358cc34bca83db25e8442291961f1a9a981152cb22b9c6f4",
+    "烛龙 V2 6轴参考配置/gmoccapy_postgui.hal": "2c16ea116b73a91c7a20cb64cd4592b27627542115f2b99f7bc86017f8ea4e4d",
+    "烛龙 V2 6轴参考配置/halshow.preferences": "bf2edc92d40522f32af03c2e766684ec14a8fb076ed1c1312e4801b2ef0b51a6",
+    "烛龙 V2 6轴参考配置/linuxcnc.var": "163bbf80485fe2fe12700c1acb4b05eff774df68176d17e4eef5de8a7024c1ae",
+    "烛龙 V2 6轴参考配置/linuxcnc.var.bak": "163bbf80485fe2fe12700c1acb4b05eff774df68176d17e4eef5de8a7024c1ae",
+    "烛龙 V2 6轴参考配置/shutdown.hal": "aaffa097850005d60367e58949926f0c54806607264d759bd828801b9f1a999f",
+    "烛龙 V2 6轴参考配置/tool.tbl": "25df8b4c399f23be510e06e17a495a9a97da0f356cfff515067f4b7558f127d9",
+    "烛龙 V2 6轴参考配置/烛龙V2.hal": "37c189fe59c39f44f86cb130f2abbb27014f7fecc0d0f63d40590a0220090086",
+    "烛龙 V2 6轴参考配置/烛龙V2.ini": "d3477ecfbfbeace40dc8feb41056acd2f776193882b8ea14184157b7d04d293a",
+    "烛龙 V2 6轴参考配置/烛龙V2.pref": "de32e3a05a1078761a4b7ad4e8fadbe3414d07b2a6bac4bd476ce8ba29b6ddd6",
+    "烛龙V2 使用说明 必看.doc": "79664ce2b8b7f978741ff3f0cd93212258edc0fbd53c2b8f05a88edb2fe5655a"
+  }
+}
