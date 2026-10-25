@@ -19,10 +19,14 @@ class ReleaseTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = builder.prepare(version, Path(directory))
             manifest = json.loads(path.read_text())
+            self.assertEqual(path.name, "mesa-release.json")
             self.assertIs(manifest["firmware"]["available"], False)
             self.assertIsNone(manifest["firmware"]["asset"])
             self.assertIsNone(manifest["firmware"]["sha256"])
-            self.assertIsNone(manifest["firmware"]["size_bytes"])
+            self.assertIsNone(manifest["firmware"]["size"])
+            self.assertEqual(manifest["firmware"]["origin"], "unavailable")
+            self.assertEqual(manifest["firmware"]["verification"],
+                             {"implementation": False, "timing": False, "board_approved": False})
             self.assertIs(manifest["physical_constraints_verified"], False)
             self.assertEqual(manifest["tag_name"], f"v{version}")
             self.assertEqual(manifest["compatible_app_version"], version)

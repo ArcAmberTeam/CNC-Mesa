@@ -51,4 +51,4 @@ jobs:
           gh release create "$RELEASE_TAG" --verify-tag
           --title "CNC-Mesa $RELEASE_TAG"
           --notes-file release/release-notes.md
-          release/*.tar.gz release/manifest.json release/SHA256SUMS
+          release/*.tar.gz release/mesa-release.json release/SHA256SUMS

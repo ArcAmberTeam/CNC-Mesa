@@ -43,14 +43,16 @@ def prepare(version: str, destination: Path) -> Path:
         "fpga": board["fpga"], "package": board["package"],
         "physical_constraints_verified": board["physical_constraints_verified"],
         "source_commit": commit, "compatible_app_version": release["compatible_app_version"],
-        "firmware": {"available": False, "asset": None, "sha256": None, "size_bytes": None,
+        "firmware": {"available": False, "asset": None, "sha256": None, "size": None,
+                     "origin": "unavailable",
+                     "verification": {"implementation": False, "timing": False, "board_approved": False},
                      "reason": "No ISE-built and board-verified bitstream is available for this revision"},
         "artifacts": artifacts,
     }
-    manifest_path = destination / "manifest.json"
+    manifest_path = destination / "mesa-release.json"
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
     hashes = [f"{entry['sha256']}  {entry['asset']}" for entry in artifacts.values()]
-    hashes.append(f"{hashlib.sha256(manifest_path.read_bytes()).hexdigest()}  manifest.json")
+    hashes.append(f"{hashlib.sha256(manifest_path.read_bytes()).hexdigest()}  {manifest_path.name}")
     (destination / "SHA256SUMS").write_text("\n".join(hashes) + "\n")
     (destination / "release-notes.md").write_text(
         f"CNC-Mesa {version}; paired application version {release['compatible_app_version']}.\n\n"
