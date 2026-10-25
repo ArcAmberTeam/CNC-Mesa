@@ -1,0 +1,82 @@
+{
+  "source": "用户提供的《烛龙V2 资料.zip》",
+  "baseline_commit": "e76d2feece006c42273776b2657fa8e0052f3dfe",
+  "files": {
+    "mesa/firmware/original/TopEthernetHostMot2.bit": {
+      "source_path": "固件定制/TopEthernetHostMot2.bit",
+      "sha256": "517254a03dc454a4af107ca29607311717d58f8c9d4dbebe538ed083f9961065"
+    },
+    "mesa/firmware/original/刷固件命令行.txt": {
+      "source_path": "固件定制/刷固件命令行.txt",
+      "sha256": "91c9cc861e4027ff5a091507c917cbdd1d33ca843d93f340a64b6dc30ecc5586"
+    },
+    "mesa/board/引脚定义.txt": {
+      "source_path": "引脚定义.txt",
+      "sha256": "df544d4f11f2f0ad3e50965baa12c6d92e1d3a18ef637d4a194cf4b26c250d5f"
+    },
+    "linuxcnc/vendor-reference/MPG.hal": {
+      "source_path": "智能串口扩展版（16出8进1手轮）/MPG.hal",
+      "sha256": "a7091a77e6fc92b7af14d64364582c842099e99b0914b6569982d085479006ba"
+    },
+    "docs/hardware/智能串口扩展版（16出8进1手轮）/使用说明.doc": {
+      "source_path": "智能串口扩展版（16出8进1手轮）/使用说明.doc",
+      "sha256": "e7325f5e85d8793f7d5d0597a56bac3da761574225235367404ce30ce456b26f"
+    },
+    "docs/hardware/板卡接口说明.jpg": {
+      "source_path": "板卡接口说明.jpg",
+      "sha256": "8f6d46b4f7ef262512009d2c8bf233231a770dbb362fc4e6394b6efe4b261d11"
+    },
+    "linuxcnc/vendor-reference/custom.hal": {
+      "source_path": "烛龙 V2 6轴参考配置/custom.hal",
+      "sha256": "34581418aef7f3453986cdbcd760df6083a94fe03edec4f2bc7d85b951dd5eb8"
+    },
+    "linuxcnc/vendor-reference/custom_gvcp.hal": {
+      "source_path": "烛龙 V2 6轴参考配置/custom_gvcp.hal",
+      "sha256": "6f7e9aac044b1f113c789b58d0680daa971e5dbc3bf6f3fe014026ee235902b1"
+    },
+    "linuxcnc/vendor-reference/custom_postgui.hal": {
+      "source_path": "烛龙 V2 6轴参考配置/custom_postgui.hal",
+      "sha256": "ee3543526da49290358cc34bca83db25e8442291961f1a9a981152cb22b9c6f4"
+    },
+    "linuxcnc/vendor-reference/gmoccapy_postgui.hal": {
+      "source_path": "烛龙 V2 6轴参考配置/gmoccapy_postgui.hal",
+      "sha256": "2c16ea116b73a91c7a20cb64cd4592b27627542115f2b99f7bc86017f8ea4e4d"
+    },
+    "linuxcnc/vendor-reference/halshow.preferences": {
+      "source_path": "烛龙 V2 6轴参考配置/halshow.preferences",
+      "sha256": "bf2edc92d40522f32af03c2e766684ec14a8fb076ed1c1312e4801b2ef0b51a6"
+    },
+    "linuxcnc/vendor-reference/linuxcnc.var": {
+      "source_path": "烛龙 V2 6轴参考配置/linuxcnc.var",
+      "sha256": "163bbf80485fe2fe12700c1acb4b05eff774df68176d17e4eef5de8a7024c1ae"
+    },
+    "linuxcnc/vendor-reference/linuxcnc.var.bak": {
+      "source_path": "烛龙 V2 6轴参考配置/linuxcnc.var.bak",
+      "sha256": "163bbf80485fe2fe12700c1acb4b05eff774df68176d17e4eef5de8a7024c1ae"
+    },
+    "linuxcnc/vendor-reference/shutdown.hal": {
+      "source_path": "烛龙 V2 6轴参考配置/shutdown.hal",
+      "sha256": "aaffa097850005d60367e58949926f0c54806607264d759bd828801b9f1a999f"
+    },
+    "linuxcnc/vendor-reference/tool.tbl": {
+      "source_path": "烛龙 V2 6轴参考配置/tool.tbl",
+      "sha256": "25df8b4c399f23be510e06e17a495a9a97da0f356cfff515067f4b7558f127d9"
+    },
+    "linuxcnc/vendor-reference/烛龙V2.hal": {
+      "source_path": "烛龙 V2 6轴参考配置/烛龙V2.hal",
+      "sha256": "37c189fe59c39f44f86cb130f2abbb27014f7fecc0d0f63d40590a0220090086"
+    },
+    "linuxcnc/vendor-reference/烛龙V2.ini": {
+      "source_path": "烛龙 V2 6轴参考配置/烛龙V2.ini",
+      "sha256": "d3477ecfbfbeace40dc8feb41056acd2f776193882b8ea14184157b7d04d293a"
+    },
+    "linuxcnc/vendor-reference/烛龙V2.pref": {
+      "source_path": "烛龙 V2 6轴参考配置/烛龙V2.pref",
+      "sha256": "de32e3a05a1078761a4b7ad4e8fadbe3414d07b2a6bac4bd476ce8ba29b6ddd6"
+    },
+    "docs/hardware/烛龙V2 使用说明 必看.doc": {
+      "source_path": "烛龙V2 使用说明 必看.doc",
+      "sha256": "79664ce2b8b7f978741ff3f0cd93212258edc0fbd53c2b8f05a88edb2fe5655a"
+    }
+  }
+}
