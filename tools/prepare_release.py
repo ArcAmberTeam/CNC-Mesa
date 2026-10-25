@@ -56,7 +56,7 @@ def prepare(version: str, destination: Path) -> Path:
     (destination / "SHA256SUMS").write_text("\n".join(hashes) + "\n")
     (destination / "release-notes.md").write_text(
         f"CNC-Mesa {version}; paired application version {release['compatible_app_version']}.\n\n"
-        f"Source revision: `{commit}`. Includes NC input configuration, double-touch HOMEMOD, "
+        f"Source revision: `{commit}`. Includes NC input configuration, signed parallel double-touch HOMEMOD with independent slow backoff and request-wide abort, "
         "GPIO VHDL simulations, integration sources and checksums.\n\n"
         "This release contains source artifacts only. No new flashable FPGA bitstream was built. "
         "The original vendor bitstream inside the full reference source archive is not an update payload. "
