@@ -1,0 +1,29 @@
+{
+  "modules": {
+    "hostmot2": {
+      "kind": "library",
+      "entrypoints": ["upstream/seveni92.xise", "upstream/hostmot2.vhd"],
+      "dependencies": []
+    },
+    "mesa": {
+      "kind": "library",
+      "entrypoints": ["board/zhulong-v2.json", "mesa_firmware/__init__.py"],
+      "dependencies": []
+    },
+    "homing": {
+      "kind": "library",
+      "entrypoints": ["zhulong_homing.comp", "prepare.py"],
+      "dependencies": []
+    },
+    "firmware": {
+      "kind": "app",
+      "entrypoints": ["prepare.py"],
+      "dependencies": ["hostmot2", "mesa"]
+    },
+    "linuxcnc": {
+      "kind": "app",
+      "entrypoints": ["prepare.py", "homing.json"],
+      "dependencies": ["homing", "mesa"]
+    }
+  }
+}

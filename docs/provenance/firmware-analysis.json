@@ -1,0 +1,244 @@
+{
+  "original": {
+    "design": "TopEthernetHostMot2.ncd;UserID=0x00007192",
+    "part": "6slx9tqg144",
+    "date": "2026/08/31",
+    "time": "04:01:10",
+    "payload_bytes": 340884,
+    "payload_sha256": "56b36358a5a50a124d8d96deeaf93533f9eec7a3f9f69a810a2e033493aaa542"
+  },
+  "official_source_url": "https://mesanet.com/software/parallel/7i92.zip",
+  "comparison": [
+    {
+      "name": "7i92_5ABOB_Enc.bit",
+      "payload_sha256": "5ae4e2b9a7c9a1359efba2edd00ac7f54e387facdef509aefbc0be5d6eea46c4",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_5ABOBx2D.bit",
+      "payload_sha256": "98ee23b16790b3cb6f93b4f6ba6cab2c81664dc72c7e7c75bab1ecf6146d3ba6",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_5abobx2dr.bit",
+      "payload_sha256": "ac482535c142983f48468622c6ef719c2edeb3c865c113e31a53296b36cdd950",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76_7i74D.bit",
+      "payload_sha256": "8a9afa099ee8c75ef17bcc225ff70b55ecd031e73ae97ad3893a514a7c3f1563",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76_7i74d6ss.bit",
+      "payload_sha256": "af8f578ec413dbeaf4b3151da480575ff1d0011f371e03b4924f3f3a728ac3b0",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76_7i78D.bit",
+      "payload_sha256": "bccfaa0445e4086467445d91ce7eda71236142f35b11f64c60db55d70ba75f85",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76_7i85sd.bit",
+      "payload_sha256": "a0a5e0d3cebb2e7a19308280c79cb12de4d71ca91682fb8957dfbf086d4830dd",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76_7i85sdid.bit",
+      "payload_sha256": "5d09d291b530f82b33b953b72bb1ba722173adb54c79e7bcde05249bc3ccb331",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76_7i89d.bit",
+      "payload_sha256": "4b47dc7ddaeda123908b9e2dcb843405bc48585b0b83fed0f90891b6f3bd75bc",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76u_pktv3.bit",
+      "payload_sha256": "38d04faddc6a2bcb289efd4ff7efeb4844a66e24edd2c53e5e93c6ca2c04f73c",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76x1D.bit",
+      "payload_sha256": "3ef9001fe84558e023691cd1808c648af96cd2f6c896c87d56ab370d044cbab2",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76x1dpl.bit",
+      "payload_sha256": "5b6dd24d74f123b7c8c0f09d58687af359c1e7272668acc79e5055d9a40bb3a8",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76x1xymd.bit",
+      "payload_sha256": "d4a98b7e44183f2d71c43b4c3ea9917dc87a09a0d5f11d1736b380119c0d31e5",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76x2D.bit",
+      "payload_sha256": "2c89b62c3267b686438dc9860fb316e566216232178c9febefadd5778d0cd89b",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i76x2d_2pwm.bit",
+      "payload_sha256": "c566eacee9fe4d61bf234803d436a7a2c4a97e9298f8fff2fdd30061580db38c",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77_7i74D.bit",
+      "payload_sha256": "5de02dd478de9ba8b8522e91b367b9ef5607be0f4bc665c6247990760b671964",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77_7i76D.bit",
+      "payload_sha256": "8a9afa099ee8c75ef17bcc225ff70b55ecd031e73ae97ad3893a514a7c3f1563",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77_7i78d.bit",
+      "payload_sha256": "3898dc10d2b3f0945ffe797eda56e98c91c8155effde14b69eebbcefe13845a3",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77_7i85d.bit",
+      "payload_sha256": "042309cf3432743ce24a71e0a9ae7ad8c6495308be42515afe675c5116264378",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77_7i85sd.bit",
+      "payload_sha256": "54821c7734ebe81072bf32356b0b46ea3b92f337de22a745798aa198856c45a6",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77_7i89d.bit",
+      "payload_sha256": "dd15056f967cb471327adbc029cfd2e9035350a63075008437508c1e331cfe2d",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77x1pktd.bit",
+      "payload_sha256": "0b2c3dad8f5aa48f7d67144a985d65c1d79afc014da1b4cd514a48dcf504adf9",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77x2.bit",
+      "payload_sha256": "ddc777388afc3c90c32b42a5b7a79c140fbbd1be9429fdbfc619e3904aa5e05a",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i77x2D.bit",
+      "payload_sha256": "f502a4c47a90ee6f0feeb65c68dc916812b7423a944515b97fa108023da2b698",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i78_7i85d.bit",
+      "payload_sha256": "03539215e0fc64767e2482776a0b506d2f7deb035a4ca60c7fc109838d71c1ea",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i78x2D.bit",
+      "payload_sha256": "49be2b7ff2b665271779ba08085265358f3ddedda200b8ac2728572ad527a778",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i85sx2D.bit",
+      "payload_sha256": "db9eaddc1570d6b5226673596e0b349b1cebb4aa524d506bcc51054f103d0207",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i85x2D.bit",
+      "payload_sha256": "33e1c5274e6887775df4341bfc8e5fe8cbb52e9f04e44dbc5020a78347ad1deb",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_7i88ssx1.bit",
+      "payload_sha256": "0adacb8beb53ad7acf32f52bb77e9c1ccdf57511347fc7503c7bc0632305e609",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_BENEZANx2D.bit",
+      "payload_sha256": "4c214384a5748d089cc2fcc7d5930a4df19c91acc31347ff188fef5747237678",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_C11Gx2.bit",
+      "payload_sha256": "3aa5d0229589b716a68f63d7e6df11253aecb03b70504b597b085ac22e1954e2",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_C11Gx2D.bit",
+      "payload_sha256": "5bd8d9d1ea266d2e1fef178d77ef8febbc3fb52b997f06b16d84e05d9eea048c",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_C11x2D.bit",
+      "payload_sha256": "d4277964716077a9102943e7f3f4f296dd7fc23fd366bcb9c2e213672feb6d7c",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_DMMBOB1x2D.bit",
+      "payload_sha256": "fee452d53ca3d4b2beae909261c5cff4ebccebf3cfd18fcd1f3bac2f3191b444",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_G540x2D.bit",
+      "payload_sha256": "4b23d6b03498ec6a27fe68921c29d3ab85409a6773cd6a7f3fa5ee6db2287b6c",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_HDBB2Dx2.bit",
+      "payload_sha256": "882e5a3515df82aac9ed44f8a6b238c6232a1cf2df3e13ac4dce8b272730a04d",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_MX3660x2D.bit",
+      "payload_sha256": "95d8ec28ddd8b6ae94ff168f740e063932ada671d76dec1e9a95d399bfb10459",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_MX4660x2D.bit",
+      "payload_sha256": "4b23d6b03498ec6a27fe68921c29d3ab85409a6773cd6a7f3fa5ee6db2287b6c",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_PMDX126x2D.bit",
+      "payload_sha256": "e5ebc7169704f0fe80c67ab962c3e060893bd9c7e7727873dd73eda49b8dbd2d",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_PROB_RFx2D.bit",
+      "payload_sha256": "60b11860d9817007e36b00dcd65c89625cc1cd73fa13687dc3955ec6be0fec6c",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_R990x2D.bit",
+      "payload_sha256": "f7c3c3bf4e13a6d832fbe982093604f6100809b374eba3cbda0f3bc67de0285f",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_avid.bit",
+      "payload_sha256": "015e8123a054c103de44b458eba380671c7a297d7214fe5950d01fc96dd3e780",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_fallback.bit",
+      "payload_sha256": "6b1299a061fbcc6a0ed6d87ee7f5b0d9a7ce6177b6872393a7044102947494f3",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_g540_7i85sd.bit",
+      "payload_sha256": "249e4a2144a9578728237dd5bcd55b4884a6189e262eb7790902cf5a5aa47eac",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_g540_85sd.bit",
+      "payload_sha256": "f334dc140c548d6e59517163de965bfc283b70dd8cca58dd3eb95d56ec9b22d9",
+      "payload_matches": false
+    },
+    {
+      "name": "7i92_g540x2rd.bit",
+      "payload_sha256": "63417211db2176991908c1ec604b68b276e65187fb963958b98d31b0ef4200ab",
+      "payload_matches": false
+    }
+  ],
+  "matching_images": 0
+}
